@@ -1,7 +1,7 @@
 #coding:utf-8
 from PIL import Image
 
-working_space = '/Users/Alas/alas/python/selenium/captures/'
+working_space = 'captures/'
 
 im = Image.open(working_space + '1号店.png')
 print im.format, im.size, im.mode
